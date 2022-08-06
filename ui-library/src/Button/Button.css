@@ -1,0 +1,32 @@
+
+root {
+    padding: 20px;
+    border-radius: 15px;
+}
+.whiteRoot {
+    border: 1px solid #000;
+    background-color: #fff;
+}
+
+.darkRoot {
+    background-color: #000;
+    color: #fff;
+}
+
+.smallRoot {
+    padding: 15px;
+    border-radius: 12px;
+    font-size: 0.8rem;
+}
+
+.mediumRoot {
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 1rem;
+}
+
+.largeRoot {
+    padding: 30px;
+    border-radius: 20px;
+    font-size: 1.2rem;
+}
