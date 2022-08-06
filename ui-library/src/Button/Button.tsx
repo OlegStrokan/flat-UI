@@ -1,7 +1,6 @@
 import React from 'react';
 import {ETheme} from "../ETheme";
-// @ts-ignore
-import styles from 'Button.css'
+import styles from './Button.css'
 import {ESize} from "../ESize";
 
 interface IButton {
