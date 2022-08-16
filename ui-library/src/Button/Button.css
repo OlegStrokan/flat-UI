@@ -3,23 +3,23 @@ root {
     padding: 20px;
     border-radius: 15px;
 }
-.whiteRoot {
+.white-root {
     border: 1px solid #000;
     background-color: #fff;
 }
 
-.darkRoot {
+.dark-root {
     background-color: #000;
     color: #fff;
 }
 
-.smallRoot {
+.small-root {
     padding: 15px;
     border-radius: 12px;
     font-size: 0.8rem;
 }
 
-.mediumRoot {
+.medium-root {
     padding: 20px;
     border-radius: 15px;
     font-size: 1rem;
