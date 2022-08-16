@@ -1,13 +1,13 @@
 {
-  "name": "flat_ui",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@stroka01/flat_ui",
+  "version": "0.0.0",
+  "description": "flat_UI - javascript UI library just only white and dark theme",
   "main": "./dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "stroka01",
   "license": "ISC",
   "devDependencies": {
     "@types/react": "^18.0.15",
