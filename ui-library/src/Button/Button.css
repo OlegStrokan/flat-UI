@@ -1,32 +1,33 @@
 
 root {
-    padding: 20px;
-    border-radius: 15px;
+    padding: 10px 20px;
+    border-radius: 23px;
 }
 .white-root {
-    border: 1px solid #000;
     background-color: #fff;
+    border: none;
 }
 
 .dark-root {
     background-color: #000;
     color: #fff;
+    border: none;
 }
 
 .small-root {
-    padding: 15px;
-    border-radius: 12px;
+    padding: 9px 18px;
+    border-radius: 15px;
     font-size: 0.8rem;
 }
 
 .medium-root {
-    padding: 20px;
-    border-radius: 15px;
+    padding: 15px 25px;
+    border-radius: 23px;
     font-size: 1rem;
 }
 
-.largeRoot {
-    padding: 30px;
-    border-radius: 20px;
+.large-root {
+    padding: 20px 30px;
+    border-radius: 30px;
     font-size: 1.2rem;
 }
