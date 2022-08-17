@@ -1,7 +1,6 @@
-import React from 'react';
 import {ComponentMeta, ComponentStory} from '@storybook/react';
 
-import {Button} from './Button';
+import {Button} from '../Button/Button';
 import {ETheme} from "../ETheme";
 import {ESize} from "../ESize";
 
