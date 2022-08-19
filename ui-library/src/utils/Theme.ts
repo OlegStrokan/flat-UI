@@ -1,4 +1,4 @@
-import { ETheme } from '../ETheme';
+import { ETheme } from '../enums/ETheme';
 
 export const chooseTheme = (theme: string, rootClasses: string[]) => {
   if (theme === ETheme.WHITE) {

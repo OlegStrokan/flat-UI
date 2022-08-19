@@ -1,8 +1,8 @@
 import {ComponentMeta, ComponentStory} from '@storybook/react';
 
 import {Button} from '../Button/Button';
-import {ETheme} from "../ETheme";
-import {ESize} from "../ESize";
+import {ETheme} from "../enums/ETheme";
+import {ESize} from "../enums/ESize";
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
@@ -36,9 +36,7 @@ Medium.args = {
     size: ESize.MEDIUM,
 };
 
-
 export const Large = Template.bind({});
 Large.args = {
     size: ESize.LARGE,
 };
-

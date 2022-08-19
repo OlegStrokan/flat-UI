@@ -1,7 +1,7 @@
 import React from 'react';
-import {ETheme} from '../ETheme';
+import {ETheme} from '../enums/ETheme';
 import './Button.css'
-import {ESize} from '../ESize';
+import {ESize} from '../enums/ESize';
 import {chooseTheme} from '../utils/Theme';
 import {chooseSize} from '../utils/Size';
 
@@ -17,8 +17,8 @@ export const Button: React.FC<IButton> = ({
                                               children,
                                               label = 'submit',
                                               theme = 'dark',
-                                              size = 'medium'
-                                              , ...props
+                                              size = 'medium',
+                                              ...props
                                           }) => {
     const rootClasses = ['root'];
 

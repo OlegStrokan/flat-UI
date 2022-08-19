@@ -1,7 +1,13 @@
 
-root {
-    padding: 10px 20px;
-    border-radius: 23px;
+.root {
+    padding: 15px 25px;
+    border-radius: 10rem;
+    font-size: 1rem;
+}
+
+.non-rounded {
+    padding: 15px 25px;
+    border-radius: 0;
 }
 .white-root {
     background-color: #fff;
@@ -16,18 +22,10 @@ root {
 
 .small-root {
     padding: 10px 17px;
-    border-radius: 16px;
     font-size: 0.8rem;
-}
-
-.medium-root {
-    padding: 15px 25px;
-    border-radius: 23px;
-    font-size: 1rem;
 }
 
 .large-root {
     padding: 20px 30px;
-    border-radius: 30px;
     font-size: 1.2rem;
 }
